@@ -72,12 +72,12 @@ input{
 
 .bot
 {
+    margin-top: 15px;
     text-align: center;
     border: none;
     outline: none;
     height: 40px;
     width: 130px;
-    margin: auto;
     background: #B8860B;
     color: #fff;
     font-size: 18px;
@@ -89,4 +89,23 @@ input{
     cursor: pointer;
     background: #DAA520;
     color: #000;
+}
+
+@media(max-width: 900px){
+
+    section{
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 72%;
+        margin: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        background: rgba(0,0,0,.7);
+    }
+
+    body{
+        background: url(../assets/carona.jpg);
+        
+    }
 }

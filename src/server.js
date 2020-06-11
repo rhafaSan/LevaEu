@@ -1,8 +1,12 @@
 const express = require('express')
 const server = express()
+const handlebars = require('express-handlebars')
 
 server.use(express.static("public"))
 server.use(express.static(__dirname + '/public'));
+
+server.engine('handlebars', handlebars({defaultLayout: 'main'}))
+server.set('view engine', 'handlebars')
 
 server.use(express.static("src"))
 server.use(express.static(__dirname + '/src'));

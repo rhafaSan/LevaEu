@@ -1,7 +1,6 @@
 {
-  "name": "Site",
+  "name": "site",
   "version": "1.0.0",
-  "description": "",
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +10,20 @@
   "author": "Rafael e Emanoel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars": "^4.7.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhafaSan/LevaEu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhafaSan/LevaEu/issues"
+  },
+  "homepage": "https://github.com/rhafaSan/LevaEu#readme",
+  "description": ""
 }
