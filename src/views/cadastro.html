@@ -24,22 +24,33 @@
                     <li><a href="breve.html">Sobre-nós</a></li>
                 </ul>
             </nav>
+            
     <div class=container>
         <section>
         <div id="app">
             <h1>Cadastre-se</h1>
-            <div class="form-group">
-                <label for="username">Username: </label>
-                <input class="form-control" type="text" >
-            </div>
-            <div class="form-group">
-                <label for="password">Password: </label>
-                <input class="form-control" type="password" >
-            </div>
-            <div class="form-group">
-                    <label for="name">Nome: </label>
+            <div class="field-group">
+                <div class="field">
+                    <label for="username">Nome: </label>
                     <input class="form-control" type="text" >
                 </div>
+                <div class="field">
+                    <label for="password">Password: </label>
+                    <input class="form-control" type="password" >
+                </div>
+            </div>
+
+            <div class="field-group">
+            <div class="field">
+                <label for="name">Local da carona: </label>
+                <input class="form-control" type="text" >
+            </div>
+                <div class="field">
+                    <label for="username">Telefone: </label>
+                    <input class="form-control" type="number" >
+                </div>
+            </div>
+            
             <button class="bot" type="button" @click="submit">Inserir</button>
         </section>
         </div>

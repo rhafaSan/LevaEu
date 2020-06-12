@@ -2,7 +2,7 @@
 
 body{
     font-family: sans-serif;
-    background: url(../assets/carona.jpg) no-repeat;
+    background: #c59825;
     background-size: cover;
     color: white;
 }
@@ -92,7 +92,7 @@ img{
     }
 
     body{
-        background: url(../assets/carona.jpg);
+        background: #c59825;
         
     }
 }

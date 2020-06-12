@@ -3,7 +3,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(../assets/carona.jpg) no-repeat;
+	background:  #c59825;
 	background-size: cover;
 	font-family: sans-serif;
 }
@@ -139,7 +139,7 @@ h1{
 	}
 
 	body{
-			background: url(../assets/carona.jpg);
+			background: #c59825;
 			
 	}
 }

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-	background: url(../assets/carona.jpg) no-repeat;
+	background:  #c59825;
 	background-size: cover;
     font-family: sans-serif;
     color: #ffffff;
@@ -83,7 +83,7 @@ nav#menu a:hover {
     }
 
     body{
-        background: url(../assets/carona.jpg);
+        background:  #c59825;
         
     }
 }
